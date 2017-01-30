@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Indoor and Outdoor Plants</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- 1. Load libraries -->
+    <!-- IE required polyfill--> 
+    <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
+
+    <script src="https://unpkg.com/zone.js@0.7.4?main=browser"></script>
+
+    <script src="https://unpkg.com/rxjs@5.0.1/bundles/Rx.js"></script>
+    <script src="https://unpkg.com/@angular/core/bundles/core.umd.js"></script>
+    <script src="https://unpkg.com/@angular/common/bundles/common.umd.js"></script>
+    <script src="https://unpkg.com/@angular/compiler/bundles/compiler.umd.js"></script>
+    <script src="https://unpkg.com/@angular/platform-browser/bundles/platform-browser.umd.js"></script>
+    <script src="https://unpkg.com/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"></script>
+
+    <!-- 2. Load our 'modules' -->
+
+
+    <!-- Combine of all 
+    <script src='angular2-combine.js'></script>
+    -->
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     
+    <script src='app/app.component.js'></script>
+    <script src='app/app.module.js'></script>
+    <script src='app/main.js'></script>
+
+    
+
+  </head>
+
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>Loading...</my-app>
+    <button id="nonAngularButton" onclick="app.handler.getOutdoorPlants()">Outdoor Plants</button>
+  </body>
+
+</html>
+
